@@ -1,23 +1,23 @@
 {
 	"pools":[
 	{
-		"name": "NiceHash",
-        	"url": "stratum+tcp://verushash.auto.nicehash.com:9200",
+		"name": "LuckPool",
+        	"url": "stratum+tcp://na.luckpool.net:3956",
 		"timeout": 150
 	},
 	{
 		"name": "LuckPoolFailover1",
-        	"url": "stratum+tcp://verushash.auto.nicehash.com:9200",
+        	"url": "stratum+tcp://na.luckpool.net:3956",
 		"timeout": 150
 	},
 	{
 		"name": "LuckPoolFailover2",
-        	"url": "stratum+tcp://verushash.auto.nicehash.com:9200",
+        	"url": "stratum+tcp://na.luckpool.net:3956",
 		"timeout": 150
 	}
 	],
-	"user": "37bpJJCNcSmbpU9Ujn4sN11qEQVuznJ3HE.Phone102",
-	"pass": "c=BTC",
+	"user": "RPhcUtTtGJhhw5EWkgaPQ8wbp6ey7HTSSA.Miner6",
+	"pass": "c=VRSC",
 	"algo": "verus",
 	"threads": 8,
 	"cpu-priority": 1,
